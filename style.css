@@ -1,0 +1,330 @@
+/* Setas do carrossel de serviços mais visíveis */
+#carouselServicos .carousel-control-prev-icon,
+#carouselServicos .carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+#carouselServicos .carousel-control-prev,
+#carouselServicos .carousel-control-next {
+    width: 5%;
+}
+/* Contorno para depoimentos do carrossel */
+#depoimentos .carousel-inner .carousel-item > div {
+    border: 2px solid #007bff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    background: #fff;
+    color: #222;
+}
+
+/* Setas do carrossel mais visíveis */
+#depoimentos .carousel-control-prev-icon,
+#depoimentos .carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+#depoimentos .carousel-control-prev,
+#depoimentos .carousel-control-next {
+    width: 5%;
+}
+body {
+    background: #222;
+}
+/* Contraste para textos principais e títulos */
+.titulo-banner {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+section h2 {
+    text-align: center;
+}
+.menu-horizontal li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+.menu-horizontal li a:hover {
+    color: #007bff;
+}
+.titulo-pequeno {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#about p {
+    text-align: center;
+}
+#home p {
+    text-align: center;
+}
+/* Cards de serviços */
+.servicos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.card-servico {
+    background: #f8f9fa;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 24px 18px;
+    width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-servico h3 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+.card-servico p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.preco {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 1.1rem;
+}
+.card-servico .btn-enviar {
+    border-radius: 24px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 24px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+.card-servico .btn-enviar:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 900px) {
+    .servicos-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-servico {
+        width: 90vw;
+    }
+}
+/* Formulário de contato centralizado */
+.form-contato {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.btn-enviar {
+    border-radius: 24px;
+    background-color: rgb(var(--bs-emphasis-color-rgb));
+    color: #fff;
+    padding: 10px 32px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background 0.2s;
+    border: none;
+}
+.btn-enviar:hover {
+    filter: brightness(0.9);
+}
+#about p {
+    text-align: center;
+}
+/* Centralizar o texto do parágrafo de boas-vindas */
+#home p {
+    text-align: center;
+}
+/* Centralizar títulos das seções principais */
+section h2 {
+    text-align: center;
+}
+
+/* Alinhar o container de serviços com o conteúdo principal */
+#services .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+/* Banner no topo */
+/* (Removido background do banner, apenas imagem centralizada) */
+
+/* Título principal */
+.titulo-banner {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+/* Menu horizontal */
+.menu-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+}
+.menu-horizontal li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+.menu-horizontal li a:hover {
+    color: #007bff;
+}
+/* Título pequeno acima do banner */
+.titulo-pequeno {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.banner-img {
+    margin-top: 4px;
+}
+/* Estilo do banner */
+.banner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+.titulo-banner {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/* Classe para limitar a largura do menu/banner e centralizar o conteúdo */
+.menu-limitado {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+@media (max-width: 600px) {
+    .banner-container {
+        margin-top: 10px;
+    }
+    .banner-img {
+        max-width: 95vw;
+    }
+}
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background: #3498db;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 32px 0;
+}
+.banner img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.conteudo {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav a {
+    margin: 5px 0;
+  }
+
+  .conteudo {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estilo Livre</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔷 NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Estilo Livre</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🔷 BANNER -->
+  <div class="banner-topo text-center">
+    <img src="imagem/banner.jpg" alt="Banner da Barbearia" class="img-fluid banner-img" />
+    <h1 class="titulo-banner">Estilo Livre</h1>
+  </div>
+
+  <!-- 🔷 HOME -->
+  <main class="container" id="home">
+    <section class="my-5 text-center">
+      <h2>Bem-vindo à Barbearia Estilo Livre</h2>
+      <p>Oferecemos cortes de cabelo e barbas com estilo e qualidade. Veja nossos serviços abaixo.</p>
+      <button class="btn btn-primary btn-lg mt-3">Agendar</button>
+    </section>
+
+    <!-- 🔷 CARROSSEL DE SERVIÇOS -->
+    <section id="services" class="my-5">
+      <div id="carouselServicos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <h3>Corte</h3>
+                  <p class="preco">R$ 40</p>
+                  <button class="btn btn-sm btn-primary">Agendar</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <h3>Barba</h3>
+                  <p class="preco">R$ 30</p>
+                  <button class="btn btn-sm btn-primary">Agendar</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <h3>Hidratação</h3>
+                  <p class="preco">R$ 25</p>
+                  <button class="btn btn-sm btn-primary">Agendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <h3>Sobrancelha</h3>
+                  <p class="preco">R$ 20</p>
+                  <button class="btn btn-sm btn-primary">Agendar</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <h3>Corte Especial</h3>
+                  <p class="preco">R$ 60</p>
+                  <button class="btn btn-sm btn-primary">Agendar</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <h3>Lavar o Cabelo</h3>
+                  <p class="preco">R$ 15</p>
+                  <button class="btn btn-sm btn-primary">Agendar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServicos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselServicos" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 🔷 DEPOIMENTOS -->
+    <section id="depoimentos" class="my-5">
+      <h2 class="text-center mb-4">Depoimentos</h2>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="p-4 bg-light rounded">
+              "Ótimo atendimento e ambiente super agradável!"<br>
+              <small>- João Silva</small>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-4 bg-light rounded">
+              "Profissionais excelentes, sempre saio satisfeito!"<br>
+              <small>- Carlos Souza</small>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-4 bg-light rounded">
+              "A melhor barbearia da região, sem dúvidas."<br>
+              <small>- Felipe Lima</small>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 🔷 CONTATO -->
+    <section id="contact" class="my-5">
+      <h2 class="text-center mb-4">Contato</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- 🔷 RODAPÉ -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 - Todos os direitos reservados.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Carrosel Scripts -->
+  <script>
+    const myCarousel = document.querySelector('#myCarousel');
+    if (myCarousel) {
+      new bootstrap.Carousel(myCarousel, {
+        interval: 3000,
+        ride: 'carousel'
+      });
+    }
+
+    const carouselServicos = document.querySelector('#carouselServicos');
+    if (carouselServicos) {
+      new bootstrap.Carousel(carouselServicos, {
+        interval: 3000,
+        ride: 'carousel'
+      });
+    }
+  </script>
+</body>
+</html>
