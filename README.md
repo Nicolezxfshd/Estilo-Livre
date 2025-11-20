@@ -1,3 +1,16 @@
+Estado ANTERIOR
+•	index (1).html
+•	Importava 
+style.css: <link rel="stylesheet" href="style.css" />
+•	Banner:
+•	<img src="imagem/banner.webp" alt= "Banner da Barbearia" class="img-fluid banner-img" />
+•	Bootstrap já vinha via CDN minificado (CSS e bootstrap.bundle.min.js).
+•	Havia apenas o script inline de inicialização dos carrosséis.
+•	style.min.css, não existia antes (foi criado por mim).
+
+<img width="1990" height="815" alt="image" src="https://github.com/user-attachments/assets/0d5a5c1f-7b59-4a38-bb76-a39f78949015" />
+
+
 # Otimizações de Performance — Projeto Web
 
 Este documento descreve todas as ações realizadas para melhorar o tempo de carregamento, reduzir peso desnecessário e otimizar métricas como LCP, CLS e INP.
@@ -61,5 +74,7 @@ As mudanças foram aplicadas de forma segura, sem alterar a estrutura principal 
 * Melhora no LCP ao manter a imagem acima da dobra carregando imediatamente
 * Funcionamento correto dos carrosséis
 * Página mais leve e eficiente
+  
+<img width="2000" height="825" alt="image" src="https://github.com/user-attachments/assets/8cd3d617-4ea8-4a4d-b840-93591ad25342" />
 
 
